@@ -7,3 +7,9 @@ public:
     mahasiswa(int nim, string name);
 };
 
+mahasiswa::mahasiswa(int nim, string name) {
+    cout << "Contructor dengan parameter terpaanggil: " << endl;
+    cout << "NIM: " << nim << endl;
+    cout << "Name: " << name << endl;
+}
+
