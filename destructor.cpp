@@ -14,3 +14,14 @@ public:
     void isidata();
 };
 
+angka::angka(int i){
+    panjang = i;
+    arr = new int[i];
+    isidata();
+}
+angka::~angka(){
+    cout << endl;
+    cetakdata();
+    delete [] arr;
+    cout << "alamat array sudah dilepaskan" << endl;
+}
