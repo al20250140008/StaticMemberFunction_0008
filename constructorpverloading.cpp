@@ -14,3 +14,15 @@ class mahasiswa {
     void cetak();
 };
 
+mahasiswa::mahasiswa() {
+}
+mahasiswa::mahasiswa(int iNim) {
+    nim = iNim;
+}
+mahasiswa::mahasiswa(string iNama) {
+    name = iNama;
+}
+mahasiswa::mahasiswa(int iNim, string iNama) {
+    nim = iNim;
+    name = iNama;
+}
